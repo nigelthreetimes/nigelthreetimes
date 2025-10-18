@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>omp4n.v1</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; min-height:100vh;
+           display:flex; align-items:center; justify-content:center; background:#f7f7f8; color:#111; }
+    .card { max-width:900px; width:95%; background:white; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.08);
+           padding:28px; text-align:center; }
+    img { max-width:100%; height:auto; border-radius:8px; margin-bottom:18px; display:block; margin-left:auto; margin-right:auto; }
+    h1 { margin:0 0 8px 0; font-size:1.6rem; }
+    p { margin:0 0 18px 0; color:#444; }
+    .player { margin-top:12px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Replace hero.jpg with your uploaded image filename OR an absolute image URL -->
+    <img src="hero.jpg" alt="A descriptive alt text" />
+    <h1>WELCOME — YOUR TAGLINE HERE</h1>
+    <p>Short description or a few words you want visitors to read.</p>
+
+    <!-- Example embed: SoundCloud. Replace src with the embed URL from whichever service you use -->
+    <div class="player">
+      <iframe width="100%" height="166" scrolling="no" frameborder="no"
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/yourtrack&auto_play=false&hide_related=false&show_comments=true">
+      </iframe>
+    </div>
+
+    <!-- Optional: small footer -->
+    <p style="font-size:0.85rem; margin-top:18px; color:#888;">© YOUR NAME • Built with GitHub Pages</p>
+  </div>
+</body>
+</html>
